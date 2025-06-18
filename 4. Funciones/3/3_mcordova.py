@@ -1,5 +1,5 @@
 def correo(nombre,apellido): 
-    correos = nombre + '.' + apellido + '@gmail'
+    correos = nombre + '.' + apellido + '@gmail.com'
     return correos
 
 nom = 'martina'
