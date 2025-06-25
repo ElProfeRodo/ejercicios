@@ -5,6 +5,6 @@ def palindromo(palabra):
 palabra = input("Ingrese una palabra: ")
 
 if palindromo(palabra):
-    print(f"{palabra} es un palíndromo")
+    print(f"{palabra} es un palindromo")
 else:
-    print(f"{palabra} no es un palíndromo")
+    print(f"{palabra} no es un palindromo")
