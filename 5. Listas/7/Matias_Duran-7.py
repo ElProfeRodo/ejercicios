@@ -1,10 +1,10 @@
-def es_palindromo(palabra):
+def palindromo(palabra):
     palabra = palabra.lower().replace(" ", "")
     return palabra == "".join(reversed(palabra))
 
-palabra_palindromo = input("Ingrese una palabra: ")
+palabra = input("Ingrese una palabra: ")
 
-if es_palindromo(palabra_palindromo):
-    print(f"{palabra_palindromo} es un palíndromo")
+if palindromo(palabra):
+    print(f"{palabra} es un palíndromo")
 else:
-    print(f"{palabra_palindromo} no es un palíndromo")
+    print(f"{palabra} no es un palíndromo")
